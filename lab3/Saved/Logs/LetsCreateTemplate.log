@@ -1,0 +1,1548 @@
+﻿Log file open, 11/06/17 17:41:33
+LogInit:Display: Running engine for game: LetsCreateTemplate
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(392205432) SRandInit(392205433).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068635
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -D3D12
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.06-22.41.33:807][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.06-22.41.33:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.06-22.41.33:816][  0]LogInit: Computer: THEWHITE770
+[2017.11.06-22.41.33:816][  0]LogInit: User: Joel
+[2017.11.06-22.41.33:816][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.11.06-22.41.33:816][  0]LogInit: High frequency timer resolution =3.320309 MHz
+[2017.11.06-22.41.33:816][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.11.06-22.41.33:816][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.06-22.41.33:816][  0]LogMemory: Process Physical Memory: 189.66 MB used, 189.66 MB peak
+[2017.11.06-22.41.33:816][  0]LogMemory: Process Virtual Memory: 194.71 MB used, 194.71 MB peak
+[2017.11.06-22.41.33:816][  0]LogMemory: Physical Memory: 6719.15 MB used, 24520.55 MB total
+[2017.11.06-22.41.33:816][  0]LogMemory: Virtual Memory: 554.13 MB used, 134217728.00 MB total
+[2017.11.06-22.41.33:841][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.11.06-22.41.34:695][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2017.11.06-22.41.34:695][  0]LogD3D12RHI: Adapter has 2017MB of dedicated video memory, 0MB of dedicated system memory, and 12260MB of shared system memory, 2 output[s]
+[2017.11.06-22.41.34:696][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2017.11.06-22.41.35:222][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2017.11.06-22.41.35:281][  0]LogD3D12RHI: Creating Pipeline Library from existing disk cache (24 KiB containing 0 PSOs).
+[2017.11.06-22.41.35:285][  0]LogD3D12RHI: Async texture creation disabled: no driver support
+[2017.11.06-22.41.35:285][  0]LogD3D12RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.06-22.41.35:285][  0]LogWindows: EnumDisplayDevices:
+[2017.11.06-22.41.35:285][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.11.06-22.41.35:286][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2017.11.06-22.41.35:286][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.11.06-22.41.35:286][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.11.06-22.41.35:286][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.06-22.41.35:286][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.11.06-22.41.35:286][  0]LogD3D12RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.11.06-22.41.35:286][  0]LogD3D12RHI:      Driver Date: 9-16-2017
+[2017.11.06-22.41.35:286][  0]LogRHI: Texture pool is 1080 MB (70% of 1543 MB)
+[2017.11.06-22.41.35:296][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (E:/Git/CS390VR/lab3/Intermediate/Shaders/WorkingDirectory/11092/).
+[2017.11.06-22.41.35:296][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joel/AppData/Local/Temp/UnrealShaderWorkingDir/C36841D7409C91E29040A98697FAEA55/'.
+[2017.11.06-22.41.35:296][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.06-22.41.36:018][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.06-22.41.36:026][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.06-22.41.36:033][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.06-22.41.36:039][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.06-22.41.36:046][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.06-22.41.36:052][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.06-22.41.36:058][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.06-22.41.36:064][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.06-22.41.36:069][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.06-22.41.36:075][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.06-22.41.36:081][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.06-22.41.36:092][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.06-22.41.36:092][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.06-22.41.36:092][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.06-22.41.36:111][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.06-22.41.36:116][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.06-22.41.36:122][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.06-22.41.36:127][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.06-22.41.36:133][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.06-22.41.36:133][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.06-22.41.36:198][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.06-22.41.36:236][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Joel/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.11.06-22.41.36:236][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joel/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.11.06-22.41.36:237][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Git/CS390VR/lab3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.06-22.41.36:237][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.06-22.41.36:237][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Git/CS390VR/lab3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.06-22.41.36:237][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.06-22.41.36:249][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.06-22.41.36:261][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.06-22.41.36:403][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.06-22.41.36:403][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.06-22.41.36:526][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.11.06-22.41.36:526][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.06-22.41.36:526][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.11.06-22.41.36:715][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.11.06-22.41.36:743][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025974 seconds
+[2017.11.06-22.41.36:748][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.11.06-22.41.36:748][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.11.06-22.41.36:748][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.06-22.41.36:753][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.06-22.41.36:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.06-22.41.36:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.06-22.41.37:383][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.06-22.41.37:570][  0]SourceControl: Info Source control is disabled
+[2017.11.06-22.41.37:571][  0]SourceControl: Info Source control is disabled
+[2017.11.06-22.41.37:580][  0]SourceControl: Info Source control is disabled
+[2017.11.06-22.41.37:588][  0]SourceControl: Info Source control is disabled
+[2017.11.06-22.41.37:785][  0]LogEngine: Initializing Engine...
+[2017.11.06-22.41.37:786][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.11.06-22.41.37:786][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.11.06-22.41.37:898][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.11.06-22.41.37:903][  0]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-22.41.37:916][  0]LogInit: FAudioDevice initialized.
+[2017.11.06-22.41.37:935][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Joel/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.11.06-22.41.37:942][  0]LogInit: Texture streaming: Enabled
+[2017.11.06-22.41.37:962][  0]LogInit: Transaction tracking system initialized
+[2017.11.06-22.41.37:981][  0]BlueprintLog: New page: Editor Load
+[2017.11.06-22.41.38:039][  0]LocalizationService: Info Localization service is disabled
+[2017.11.06-22.41.38:093][  0]LogConsoleResponse:Display: 
+[2017.11.06-22.41.38:176][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.11.06-22.41.38:176][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.06-22.41.38:262][  0]LogFileCache: Scanning file cache for directory 'E:/Git/CS390VR/lab3/Content/' took 0.01s
+[2017.11.06-22.41.38:263][  0]SourceControl: Info Source control is disabled
+[2017.11.06-22.41.38:263][  0]Cmd: MAP LOAD FILE="E:/Git/CS390VR/lab3/Content/Maps/LetsCreateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.06-22.41.38:263][  0]LightingResults: New page: Lighting Build
+[2017.11.06-22.41.38:265][  0]MapCheck: New page: Map Check
+[2017.11.06-22.41.38:265][  0]LightingResults: New page: Lighting Build
+[2017.11.06-22.41.38:469][  0]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-22.41.38:478][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.06-22.41.38:479][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.06-22.41.38:515][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.155ms to complete.
+[2017.11.06-22.41.38:515][  0]LogFileHelpers: Loading map 'LetsCreateMap' took 0.252
+[2017.11.06-22.41.38:635][  0]LogCollectionManager: Loaded 0 collections in 0.001527 seconds
+[2017.11.06-22.41.38:675][  0]LogFileCache: Scanning file cache for directory 'E:/Git/CS390VR/lab3/Saved/Collections/' took 0.01s
+[2017.11.06-22.41.38:675][  0]LogFileCache: Scanning file cache for directory 'E:/Git/CS390VR/lab3/Content/Developers/Joel/Collections/' took 0.01s
+[2017.11.06-22.41.38:675][  0]LogFileCache: Scanning file cache for directory 'E:/Git/CS390VR/lab3/Content/Collections/' took 0.01s
+[2017.11.06-22.41.38:675][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.06-22.41.38:681][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2047 classes and 369 folders.
+[2017.11.06-22.41.38:685][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.06-22.41.38:685][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.06-22.41.38:685][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2017.11.06-22.41.38:689][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.06-22.41.38:731][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.06-22.41.38:734][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.06-22.41.38:771][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.06-22.41.38:776][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.06-22.41.38:801][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.06-22.41.38:801][  0]LogLoad: Full Startup: 5.58 seconds (BP compile: 0.02 seconds)
+[2017.11.06-22.41.38:801][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.06-22.41.38:811][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.06-22.41.38:811][  0]LogOcInput: OculusInput pre-init called
+[2017.11.06-22.41.38:829][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.06-22.41.38:950][  0]LogRenderer: Reallocating scene render targets to support 1160x552 (Frame:2).
+[2017.11.06-22.41.39:015][  1]LogAssetRegistry: Asset discovery search completed in 2.3212 seconds
+[2017.11.06-22.41.39:015][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.06-22.41.39:015][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.11.06-22.41.47:909][864]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.11.06-22.42.13:937][584]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-22.42.14:090][584]BlueprintEditorCompileResults: Info [0040.86] Compile of SuperHotController successful! [in 153 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-22.42.14:485][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-22.42.14:517][625]LogSavePackage: Save=24.07ms
+[2017.11.06-22.42.14:517][625]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController492701124E9B5D6C6C995DB7068075B0.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-22.42.14:519][625]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-22.51.38:685][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LetsCreateMap' took 0.016
+[2017.11.06-22.51.38:686][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SuperHotController] ([1] browsable assets)...
+[2017.11.06-22.51.38:686][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SuperHotController]
+[2017.11.06-22.51.38:686][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.06-22.51.38:724][242]LogSavePackage: Save=31.02ms
+[2017.11.06-22.51.38:724][242]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController_Auto1B65BA2FB4277F3A39C654E9E2E5225D7.tmp' to 'E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto1.uasset'
+[2017.11.06-22.51.38:726][242]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto1.uasset
+[2017.11.06-22.51.38:726][242]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.11.06-22.54.49:041][263]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-22.54.49:172][263]BlueprintEditorCompileResults: Info [0795.95] Compile of SuperHotController successful! [in 130 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-22.54.49:447][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-22.54.49:496][286]LogSavePackage: Save=33.84ms
+[2017.11.06-22.54.49:496][286]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController1ECC666742CC9BBD9C857E987CDAAAAB.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-22.54.49:499][286]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-22.55.10:667][581]LogActorFactory: Actor Factory created Cube
+[2017.11.06-22.55.10:670][581]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.06-22.55.11:708][697]LogActorFactory: Actor Factory created Cube
+[2017.11.06-22.55.34:062][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-22.55.34:063][318]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 12:55:34 PM)
+[2017.11.06-22.55.34:063][318]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-22.55.34:068][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005615s)
+[2017.11.06-22.55.34:069][318]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-22.55.34:069][318]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.11.06-22.55.34:069][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006358s)
+[2017.11.06-22.55.34:085][318]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-22.55.34:092][318]LogInit: FAudioDevice initialized.
+[2017.11.06-22.55.34:161][318]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-22.55.34:167][318]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-17.55.34
+[2017.11.06-22.55.34:168][318]LogWorld: Bringing up level for play took: 0.005880
+[2017.11.06-22.55.34:172][318]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.11.06-22.55.34:174][318]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.218
+[2017.11.06-22.55.37:307][683]Cmd: UpdateLandscapeSetup
+[2017.11.06-22.55.39:478][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-22.55.39:479][941]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 12:55:39 PM)
+[2017.11.06-22.55.39:479][941]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-22.55.39:484][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005415s)
+[2017.11.06-22.55.39:484][941]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-22.55.39:485][941]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2017.11.06-22.55.39:485][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006049s)
+[2017.11.06-22.55.39:500][941]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-22.55.39:507][941]LogInit: FAudioDevice initialized.
+[2017.11.06-22.55.39:557][941]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-22.55.39:563][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-17.55.39
+[2017.11.06-22.55.39:564][941]LogWorld: Bringing up level for play took: 0.005793
+[2017.11.06-22.55.39:565][941]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.827
+[2017.11.06-22.55.59:655][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.11.06-22.56.06:055][309]Cmd: DELETE
+[2017.11.06-22.56.06:055][309]Cmd: ACTOR DELETE
+[2017.11.06-22.56.06:056][309]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.06-22.56.06:067][309]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.06-22.56.09:958][771]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.06-22.56.15:452][960]Cmd: TRANSACTION UNDO
+[2017.11.06-22.56.15:452][960]LogEditorTransaction: Undo Brush Add
+[2017.11.06-22.56.17:519][193]LogActorFactory: Actor Factory created Cube
+[2017.11.06-22.56.18:438][302]LogActorFactory: Actor Factory created Cube
+[2017.11.06-22.56.21:729][382]Cmd: UpdateLandscapeSetup
+[2017.11.06-22.56.49:246][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-22.56.49:246][658]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 12:56:49 PM)
+[2017.11.06-22.56.49:246][658]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-22.56.49:252][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005939s)
+[2017.11.06-22.56.49:253][658]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-22.56.49:253][658]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2017.11.06-22.56.49:253][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006607s)
+[2017.11.06-22.56.49:268][658]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-22.56.49:275][658]LogInit: FAudioDevice initialized.
+[2017.11.06-22.56.49:318][658]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-22.56.49:325][658]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-17.56.49
+[2017.11.06-22.56.49:325][658]LogWorld: Bringing up level for play took: 0.005896
+[2017.11.06-22.56.49:327][658]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.935
+[2017.11.06-22.57.14:938][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-22.57.14:938][416]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 12:57:14 PM)
+[2017.11.06-22.57.14:938][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-22.57.14:944][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005567s)
+[2017.11.06-22.57.14:945][416]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-22.57.14:945][416]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.11.06-22.57.14:945][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006334s)
+[2017.11.06-22.57.14:961][416]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-22.57.14:968][416]LogInit: FAudioDevice initialized.
+[2017.11.06-22.57.15:014][416]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-22.57.15:021][416]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-17.57.15
+[2017.11.06-22.57.15:021][416]LogWorld: Bringing up level for play took: 0.006355
+[2017.11.06-22.57.15:022][416]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.631
+[2017.11.06-22.57.30:106][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-22.57.30:107][177]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 12:57:30 PM)
+[2017.11.06-22.57.30:107][177]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-22.57.30:112][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005338s)
+[2017.11.06-22.57.30:112][177]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-22.57.30:112][177]LogPlayLevel: PIE: World Init took: (0.000464s)
+[2017.11.06-22.57.30:113][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.005996s)
+[2017.11.06-22.57.30:128][177]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-22.57.30:135][177]LogInit: FAudioDevice initialized.
+[2017.11.06-22.57.30:183][177]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-22.57.30:189][177]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-17.57.30
+[2017.11.06-22.57.30:190][177]LogWorld: Bringing up level for play took: 0.006109
+[2017.11.06-22.57.30:191][177]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.2
+[2017.11.06-22.58.00:498][244]LogRenderer: Reallocating scene render targets to support 1196x744 (Frame:90318).
+[2017.11.06-23.00.03:424][593]BlueprintLog: New page: Compile BP_SuperHotBullet
+[2017.11.06-23.00.03:624][593]BlueprintEditorCompileResults: Info [1110.40] Compile of BP_SuperHotBullet successful! [in 200 ms] (/Game/Blueprints/BP_SuperHotBullet.BP_SuperHotBullet)
+[2017.11.06-23.00.04:192][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SuperHotBullet" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotBullet.uasset" SILENT=true
+[2017.11.06-23.00.04:211][643]LogSavePackage: Save=17.52ms
+[2017.11.06-23.00.04:211][643]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_SuperHotBulletB1E8050B454DDAE35C91C79EE3D9ECFD.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotBullet.uasset'
+[2017.11.06-23.00.04:213][643]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotBullet.uasset
+[2017.11.06-23.00.18:821][ 27]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.06-23.00.55:820][915]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.00.55:836][915]LogBlueprint:Error: Compiler Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.00.55:836][915]LogBlueprint:Error: Compiler Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.00.56:003][915]LogBlueprint:Warning: Compiler Warning [1162.78] Compile of SuperHotController failed. 2 Fatal Issue(s) 0 Warning(s) [in 183 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.00.56:003][915]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.00.56:003][915]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.00.56:003][915]BlueprintEditorCompileResults:Warning: Warning [1162.78] Compile of SuperHotController failed. 2 Fatal Issue(s) 0 Warning(s) [in 183 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.00.56:272][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.00.56:318][938]LogSavePackage: Save=36.22ms
+[2017.11.06-23.00.56:318][938]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController73B8CE0A4B9DF1D5137061816F5DD257.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.00.56:321][938]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.01.11:484][250]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.01.11:498][250]LogBlueprint:Error: Compiler Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.01.11:498][250]LogBlueprint:Error: Compiler Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.01.11:666][250]LogBlueprint:Warning: Compiler Warning [1178.44] Compile of SuperHotController failed. 2 Fatal Issue(s) 0 Warning(s) [in 182 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.01.11:666][250]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.01.11:666][250]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.11.06-23.01.11:666][250]BlueprintEditorCompileResults:Warning: Warning [1178.44] Compile of SuperHotController failed. 2 Fatal Issue(s) 0 Warning(s) [in 182 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.01.54:983][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LetsCreateMap" FILE="E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.06-23.01.55:257][787]LogSavePackage: Save=263.59ms
+[2017.11.06-23.01.55:257][787]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/LetsCreateMap_Auto223EAD9CF4106CEA75D49A3B39F46DE3F.tmp' to 'E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto2.umap'
+[2017.11.06-23.01.55:258][787]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto2.umap
+[2017.11.06-23.01.55:261][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LetsCreateMap' took 0.291
+[2017.11.06-23.01.55:261][787]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2017.11.06-23.01.55:265][787]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SuperHotController] ([1] browsable assets)...
+[2017.11.06-23.01.55:265][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SuperHotController]
+[2017.11.06-23.01.55:265][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.11.06-23.01.55:298][787]LogSavePackage: Save=31.51ms
+[2017.11.06-23.01.55:298][787]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController_Auto25A472D084E1EFB16CAD34E86F55F04E8.tmp' to 'E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto2.uasset'
+[2017.11.06-23.01.55:299][787]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Blueprints/SuperHotController_Auto2.uasset
+[2017.11.06-23.01.55:300][787]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.11.06-23.02.27:339][419]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.02.27:425][419]BlueprintEditorCompileResults: Info [1254.20] Compile of SuperHotController successful! [in 85 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.04.17:028][ 48]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.04.17:112][ 48]BlueprintEditorCompileResults: Info [1363.89] Compile of SuperHotController successful! [in 84 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.04.27:600][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.04.27:646][101]LogSavePackage: Save=43.26ms
+[2017.11.06-23.04.27:646][101]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController92D81D3842E4B7D9AA2A558479A50459.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.04.27:650][101]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.04.37:976][ 49]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.06-23.04.53:015][356]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.04.53:096][356]BlueprintEditorCompileResults: Info [1399.87] Compile of SuperHotController successful! [in 80 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.04.53:388][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.04.53:427][383]LogSavePackage: Save=36.33ms
+[2017.11.06-23.04.53:427][383]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController1E418C7945EA36171D98029D19612CDD.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.04.53:429][383]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.04.54:908][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.04.54:908][538]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:04:54 PM)
+[2017.11.06-23.04.54:908][538]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.04.54:914][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005773s)
+[2017.11.06-23.04.54:914][538]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.04.54:914][538]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2017.11.06-23.04.54:914][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006476s)
+[2017.11.06-23.04.54:960][538]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.04.54:968][538]LogInit: FAudioDevice initialized.
+[2017.11.06-23.04.55:015][538]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.04.55:021][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.04.55
+[2017.11.06-23.04.55:021][538]LogWorld: Bringing up level for play took: 0.006023
+[2017.11.06-23.04.55:023][538]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.631
+[2017.11.06-23.05.14:804][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.05.14:804][875]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:05:14 PM)
+[2017.11.06-23.05.14:804][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.05.14:810][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005643s)
+[2017.11.06-23.05.14:810][875]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.05.14:810][875]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2017.11.06-23.05.14:810][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006292s)
+[2017.11.06-23.05.14:826][875]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.05.14:833][875]LogInit: FAudioDevice initialized.
+[2017.11.06-23.05.14:879][875]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.05.14:886][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.05.14
+[2017.11.06-23.05.14:886][875]LogWorld: Bringing up level for play took: 0.006226
+[2017.11.06-23.05.14:888][875]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.496
+[2017.11.06-23.06.31:531][948]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.06.31:686][948]BlueprintEditorCompileResults: Info [1498.46] Compile of SuperHotController successful! [in 154 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.06.31:846][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.06.31:897][960]LogSavePackage: Save=44.65ms
+[2017.11.06-23.06.31:897][960]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController6B79E9BC4AA61E739EF10E9416F641D8.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.06.31:900][960]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.06.33:737][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.06.33:737][150]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:06:33 PM)
+[2017.11.06-23.06.33:737][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.06.33:743][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005985s)
+[2017.11.06-23.06.33:744][150]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.06.33:744][150]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.11.06-23.06.33:744][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006732s)
+[2017.11.06-23.06.33:763][150]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.06.33:777][150]LogInit: FAudioDevice initialized.
+[2017.11.06-23.06.33:828][150]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.06.33:834][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.06.33
+[2017.11.06-23.06.33:835][150]LogWorld: Bringing up level for play took: 0.006057
+[2017.11.06-23.06.33:836][150]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.555
+[2017.11.06-23.06.59:907][742]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.06.59:989][742]BlueprintEditorCompileResults: Info [1526.76] Compile of SuperHotController successful! [in 82 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.07.00:305][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.07.00:348][772]LogSavePackage: Save=39.63ms
+[2017.11.06-23.07.00:348][772]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController97239B3B4F9D6E60463F77BEDE2FDFEF.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.07.00:350][772]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.07.02:148][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.07.02:148][966]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:07:02 PM)
+[2017.11.06-23.07.02:148][966]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.07.02:154][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005614s)
+[2017.11.06-23.07.02:154][966]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.07.02:155][966]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.11.06-23.07.02:155][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006281s)
+[2017.11.06-23.07.02:172][966]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.07.02:178][966]LogInit: FAudioDevice initialized.
+[2017.11.06-23.07.02:227][966]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.07.02:233][966]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.07.02
+[2017.11.06-23.07.02:233][966]LogWorld: Bringing up level for play took: 0.005969
+[2017.11.06-23.07.02:235][966]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.157
+[2017.11.06-23.07.13:252][ 84]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.07.13:337][ 84]BlueprintEditorCompileResults: Info [1540.11] Compile of SuperHotController successful! [in 85 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.07.13:572][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.07.13:625][106]LogSavePackage: Save=39.47ms
+[2017.11.06-23.07.13:625][106]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerDA8C34CC40CDC526BE8E60951A76D1AD.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.07.13:628][106]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.07.15:298][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.07.15:299][286]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:07:15 PM)
+[2017.11.06-23.07.15:299][286]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.07.15:304][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005702s)
+[2017.11.06-23.07.15:305][286]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.07.15:305][286]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2017.11.06-23.07.15:305][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006470s)
+[2017.11.06-23.07.15:322][286]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.07.15:328][286]LogInit: FAudioDevice initialized.
+[2017.11.06-23.07.15:371][286]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.07.15:377][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.07.15
+[2017.11.06-23.07.15:377][286]LogWorld: Bringing up level for play took: 0.006049
+[2017.11.06-23.07.15:379][286]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.987
+[2017.11.06-23.07.33:196][225]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.06-23.07.33:204][225]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.06-23.07.33:274][225]LogPlayLevel: PlayLevel: Blueprint regeneration took 77 ms (1 blueprints)
+[2017.11.06-23.07.33:289][225]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:07:33 PM)
+[2017.11.06-23.07.33:289][225]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.07.33:295][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005651s)
+[2017.11.06-23.07.33:295][225]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.07.33:295][225]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.11.06-23.07.33:295][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006555s)
+[2017.11.06-23.07.33:313][225]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.07.33:319][225]LogInit: FAudioDevice initialized.
+[2017.11.06-23.07.33:367][225]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.07.33:374][225]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.07.33
+[2017.11.06-23.07.33:374][225]LogWorld: Bringing up level for play took: 0.006323
+[2017.11.06-23.07.33:376][225]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.985
+[2017.11.06-23.07.37:487][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.07.37:529][659]LogSavePackage: Save=40.64ms
+[2017.11.06-23.07.37:529][659]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController66740B734635660594BE4997E5011B5C.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.07.37:532][659]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.07.39:843][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.07.39:843][910]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:07:39 PM)
+[2017.11.06-23.07.39:843][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.07.39:849][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005714s)
+[2017.11.06-23.07.39:849][910]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.07.39:849][910]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2017.11.06-23.07.39:849][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006355s)
+[2017.11.06-23.07.39:867][910]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.07.39:873][910]LogInit: FAudioDevice initialized.
+[2017.11.06-23.07.39:916][910]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.07.39:923][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.07.39
+[2017.11.06-23.07.39:923][910]LogWorld: Bringing up level for play took: 0.006199
+[2017.11.06-23.07.39:924][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.467
+[2017.11.06-23.08.10:649][573]LogRenderer: Reallocating scene render targets to support 1280x744 (Frame:157246).
+[2017.11.06-23.08.10:726][574]LogRenderer: Reallocating scene render targets to support 1848x1080 (Frame:157249).
+[2017.11.06-23.08.13:625][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.08.13:625][875]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:08:13 PM)
+[2017.11.06-23.08.13:625][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.08.13:631][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005643s)
+[2017.11.06-23.08.13:631][875]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.08.13:631][875]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2017.11.06-23.08.13:632][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006375s)
+[2017.11.06-23.08.13:653][875]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.08.13:660][875]LogInit: FAudioDevice initialized.
+[2017.11.06-23.08.13:705][875]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.08.13:712][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.08.13
+[2017.11.06-23.08.13:712][875]LogWorld: Bringing up level for play took: 0.006128
+[2017.11.06-23.08.13:714][875]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.678
+[2017.11.06-23.09.35:383][257]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.09.35:533][257]BlueprintEditorCompileResults: Info [1682.31] Compile of SuperHotController successful! [in 149 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.10.33:302][220]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.10.33:394][220]BlueprintEditorCompileResults: Info [1740.17] Compile of SuperHotController successful! [in 92 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.10.34:407][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.10.34:453][331]LogSavePackage: Save=43.44ms
+[2017.11.06-23.10.34:453][331]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController78043755446F4C37DFB6C18384A020F6.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.10.34:456][331]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.10.51:564][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SuperHotEnemyBullet" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset" SILENT=true
+[2017.11.06-23.10.51:582][147]LogSavePackage: Save=16.33ms
+[2017.11.06-23.10.51:582][147]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_SuperHotEnemyBullet341E062F41525790AF894592095EF9CD.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset'
+[2017.11.06-23.10.51:584][147]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset
+[2017.11.06-23.12.35:261][113]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.12.35:360][113]BlueprintEditorCompileResults: Info [1862.13] Compile of SuperHotController successful! [in 99 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.12.42:194][784]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.12.42:285][784]BlueprintEditorCompileResults: Info [1869.06] Compile of SuperHotController successful! [in 90 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.12.42:782][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.12.42:854][831]LogSavePackage: Save=63.92ms
+[2017.11.06-23.12.42:854][831]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController230A5BC14E1A55BCE9BA83BD4E84B7BF.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.12.42:856][831]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.12.44:573][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.12.44:573][993]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:12:44 PM)
+[2017.11.06-23.12.44:574][993]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.12.44:579][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005854s)
+[2017.11.06-23.12.44:580][993]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.12.44:580][993]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2017.11.06-23.12.44:580][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006627s)
+[2017.11.06-23.12.44:597][993]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.12.44:604][993]LogInit: FAudioDevice initialized.
+[2017.11.06-23.12.44:649][993]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.12.44:656][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.12.44
+[2017.11.06-23.12.44:656][993]LogWorld: Bringing up level for play took: 0.006305
+[2017.11.06-23.12.44:658][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.266
+[2017.11.06-23.12.54:217][977]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.12.54:308][977]BlueprintEditorCompileResults: Info [1881.08] Compile of SuperHotController successful! [in 90 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.12.55:538][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.12.55:588][102]LogSavePackage: Save=47.09ms
+[2017.11.06-23.12.55:588][102]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerA8594D2B4EBC5C7594BB7F85D900A11F.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.12.55:590][102]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.12.57:835][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.12.57:835][335]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:12:57 PM)
+[2017.11.06-23.12.57:835][335]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.12.57:840][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005418s)
+[2017.11.06-23.12.57:841][335]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.12.57:841][335]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2017.11.06-23.12.57:841][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006114s)
+[2017.11.06-23.12.57:859][335]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.12.57:865][335]LogInit: FAudioDevice initialized.
+[2017.11.06-23.12.57:914][335]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.12.57:920][335]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.12.57
+[2017.11.06-23.12.57:921][335]LogWorld: Bringing up level for play took: 0.006230
+[2017.11.06-23.12.57:922][335]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.469
+[2017.11.06-23.13.05:583][146]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.06-23.13.05:594][146]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.06-23.13.05:669][146]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2017.11.06-23.13.05:684][146]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:13:05 PM)
+[2017.11.06-23.13.05:684][146]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.13.05:689][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005336s)
+[2017.11.06-23.13.05:690][146]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.13.05:690][146]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2017.11.06-23.13.05:690][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.005979s)
+[2017.11.06-23.13.05:707][146]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.13.05:713][146]LogInit: FAudioDevice initialized.
+[2017.11.06-23.13.05:762][146]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.13.05:768][146]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.13.05
+[2017.11.06-23.13.05:769][146]LogWorld: Bringing up level for play took: 0.005966
+[2017.11.06-23.13.05:770][146]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.621
+[2017.11.06-23.13.14:217][ 25]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.06-23.13.14:227][ 25]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.06-23.13.14:301][ 25]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2017.11.06-23.13.14:317][ 25]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:13:14 PM)
+[2017.11.06-23.13.14:318][ 25]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.13.14:323][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005560s)
+[2017.11.06-23.13.14:324][ 25]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.13.14:324][ 25]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2017.11.06-23.13.14:324][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006322s)
+[2017.11.06-23.13.14:341][ 25]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.13.14:348][ 25]LogInit: FAudioDevice initialized.
+[2017.11.06-23.13.14:395][ 25]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.13.14:402][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.13.14
+[2017.11.06-23.13.14:402][ 25]LogWorld: Bringing up level for play took: 0.006180
+[2017.11.06-23.13.14:404][ 25]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.012
+[2017.11.06-23.13.28:134][415]BlueprintLog: New page: Compile SuperHotController
+[2017.11.06-23.13.28:226][415]BlueprintEditorCompileResults: Info [1915.00] Compile of SuperHotController successful! [in 91 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.06-23.13.28:566][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.06-23.13.28:614][446]LogSavePackage: Save=46.56ms
+[2017.11.06-23.13.28:614][446]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController08F34B6049BE7E59974A6CB024A2C458.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.06-23.13.28:617][446]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.06-23.13.29:750][557]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.06-23.16.01:271][883]BlueprintLog: New page: Compile BP_EnemyCharger
+[2017.11.06-23.16.01:277][883]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CollisionCylinder is already used by CapsuleComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.16.01:277][883]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.Arrow is already used by ArrowComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.16.01:277][883]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.16.01:277][883]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.16.01:611][883]BlueprintEditorCompileResults: Info [2068.38] Compile of BP_EnemyCharger successful! [in 340 ms] (/Game/Blueprints/BP_EnemyCharger.BP_EnemyCharger)
+[2017.11.06-23.16.02:022][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyCharger" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset" SILENT=true
+[2017.11.06-23.16.02:045][924]LogSavePackage: Save=20.16ms
+[2017.11.06-23.16.02:045][924]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyCharger03445B064E7DD199A6FDF19CCD52DD7F.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset'
+[2017.11.06-23.16.02:047][924]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset
+[2017.11.06-23.17.14:405][537]BlueprintLog: New page: Compile BP_EnemyCharger
+[2017.11.06-23.17.14:782][537]BlueprintEditorCompileResults: Info [2141.56] Compile of BP_EnemyCharger successful! [in 376 ms] (/Game/Blueprints/BP_EnemyCharger.BP_EnemyCharger)
+[2017.11.06-23.17.18:286][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyCharger" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset" SILENT=true
+[2017.11.06-23.17.18:315][620]LogSavePackage: Save=21.57ms
+[2017.11.06-23.17.18:315][620]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyCharger1784512C43D339B815A2958A0F57B7C9.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset'
+[2017.11.06-23.17.18:318][620]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset
+[2017.11.06-23.17.29:725][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.17.29:726][973]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:17:29 PM)
+[2017.11.06-23.17.29:726][973]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.17.29:735][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009360s)
+[2017.11.06-23.17.29:736][973]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.17.29:736][973]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2017.11.06-23.17.29:736][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.010261s)
+[2017.11.06-23.17.29:755][973]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.17.29:761][973]LogInit: FAudioDevice initialized.
+[2017.11.06-23.17.29:807][973]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.17.29:814][973]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.17.29
+[2017.11.06-23.17.29:818][973]LogWorld: Bringing up level for play took: 0.009710
+[2017.11.06-23.17.29:819][973]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.573
+[2017.11.06-23.17.56:385][477]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.06-23.17.56:392][477]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.06-23.17.56:412][477]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CollisionCylinder is already used by CapsuleComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.17.56:412][477]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.Arrow is already used by ArrowComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.17.56:412][477]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.17.56:412][477]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.17.56:812][477]LogPlayLevel: PlayLevel: Blueprint regeneration took 427 ms (1 blueprints)
+[2017.11.06-23.17.56:828][477]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:17:56 PM)
+[2017.11.06-23.17.56:828][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.17.56:834][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006390s)
+[2017.11.06-23.17.56:835][477]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.17.56:835][477]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.11.06-23.17.56:835][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007194s)
+[2017.11.06-23.17.56:855][477]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.17.56:861][477]LogInit: FAudioDevice initialized.
+[2017.11.06-23.17.56:909][477]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.17.56:916][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.17.56
+[2017.11.06-23.17.56:917][477]LogWorld: Bringing up level for play took: 0.006731
+[2017.11.06-23.17.56:918][477]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.527
+[2017.11.06-23.17.57:751][573]LogCharacterMovement: BP_EnemyCharger_2 is stuck and failed to move! Velocity: X=25.316 Y=599.466 Z=0.000 Location: X=-8.105 Y=2772.074 Z=88.501 Normal: X=0.000 Y=0.000 Z=-1.000 PenetrationDepth:4.095 Actor:Cube3 Component:StaticMeshComponent0 BoneName:None
+[2017.11.06-23.18.09:135][557]LogEditorTransaction: Undo Edit Max Walk Speed Crouched
+[2017.11.06-23.18.09:141][557]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharacterMesh0) Component already registered.
+[2017.11.06-23.18.09:143][557]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.Arrow) Component already registered.
+[2017.11.06-23.18.09:145][557]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.BP_EnemyCharger_C_1.CollisionCylinder) Component already registered.
+[2017.11.06-23.18.12:156][897]LogEditorTransaction: Undo Rotate Actors
+[2017.11.06-23.18.14:643][173]LogEditorTransaction: Redo Rotate Actors
+[2017.11.06-23.18.23:784][  4]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.06-23.18.23:791][  4]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.06-23.18.23:809][  4]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CollisionCylinder is already used by CapsuleComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.18.23:809][  4]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.Arrow is already used by ArrowComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.18.23:809][  4]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.18.23:810][  4]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.BP_EnemyCharger_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/LetsCreateMap.LetsCreateMap:PersistentLevel.REINST_BP_EnemyCharger_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.11.06-23.18.24:251][  4]LogPlayLevel: PlayLevel: Blueprint regeneration took 466 ms (1 blueprints)
+[2017.11.06-23.18.24:265][  4]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:18:24 PM)
+[2017.11.06-23.18.24:265][  4]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.18.24:271][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006168s)
+[2017.11.06-23.18.24:272][  4]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.18.24:272][  4]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2017.11.06-23.18.24:272][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006845s)
+[2017.11.06-23.18.24:290][  4]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.18.24:296][  4]LogInit: FAudioDevice initialized.
+[2017.11.06-23.18.24:346][  4]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.18.24:352][  4]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.18.24
+[2017.11.06-23.18.24:353][  4]LogWorld: Bringing up level for play took: 0.006602
+[2017.11.06-23.18.24:355][  4]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.037
+[2017.11.06-23.18.28:382][471]LogCharacterMovement: BP_EnemyCharger_2 is stuck and failed to move! Velocity: X=15.427 Y=149.205 Z=0.000 Location: X=-5.965 Y=2902.988 Z=88.083 Normal: X=0.635 Y=-0.719 Z=-0.282 PenetrationDepth:0.986 Actor:BP_SuperHotBullet_C_4 Component:Cube BoneName:None
+[2017.11.06-23.18.29:108][558]LogCharacterMovement: BP_EnemyCharger_2 is stuck and failed to move! Velocity: X=-149.886 Y=5.834 Z=0.000 Location: X=-100.836 Y=2944.029 Z=88.083 Normal: X=0.869 Y=-0.400 Z=-0.291 PenetrationDepth:3.436 Actor:BP_SuperHotBullet_C_5 Component:Cube BoneName:None
+[2017.11.06-23.18.29:416][595]LogCharacterMovement: BP_EnemyCharger_2 is stuck and failed to move! Velocity: X=-149.997 Y=-0.939 Z=0.000 Location: X=-141.435 Y=2942.748 Z=88.083 Normal: X=0.926 Y=-0.293 Z=-0.239 PenetrationDepth:2.666 Actor:BP_SuperHotBullet_C_6 Component:Cube BoneName:None
+[2017.11.06-23.18.29:884][651]LogCharacterMovement: BP_EnemyCharger_2 is stuck and failed to move! Velocity: X=-149.992 Y=-1.589 Z=0.000 Location: X=-205.415 Y=2940.662 Z=88.083 Normal: X=0.955 Y=-0.246 Z=-0.168 PenetrationDepth:3.571 Actor:BP_SuperHotBullet_C_7 Component:Cube BoneName:None
+[2017.11.06-23.18.35:063][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyCharger" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset" SILENT=true
+[2017.11.06-23.18.35:088][219]LogSavePackage: Save=22.22ms
+[2017.11.06-23.18.35:088][219]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyCharger6F417D2D47B38429012104BC9C09C912.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset'
+[2017.11.06-23.18.35:090][219]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset
+[2017.11.06-23.18.41:674][980]LogEditorViewport: Clicking on Actor (LMB): BP_EnemyCharger_C (BP_EnemyCharger)
+[2017.11.06-23.18.41:725][984]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2017.11.06-23.18.53:631][233]BlueprintLog: New page: Compile BP_EnemyCharger
+[2017.11.06-23.18.53:761][233]BlueprintEditorCompileResults: Info [2240.54] Compile of BP_EnemyCharger successful! [in 129 ms] (/Game/Blueprints/BP_EnemyCharger.BP_EnemyCharger)
+[2017.11.06-23.18.54:085][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyCharger" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset" SILENT=true
+[2017.11.06-23.18.54:109][266]LogSavePackage: Save=21.40ms
+[2017.11.06-23.18.54:109][266]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyCharger975075FC4B92B81328D12B8A24C4953D.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset'
+[2017.11.06-23.18.54:111][266]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset
+[2017.11.06-23.19.03:825][408]Cmd: TRANSACTION UNDO
+[2017.11.06-23.19.03:825][408]LogEditorTransaction: Undo Rotate Components
+[2017.11.06-23.19.04:323][451]Cmd: TRANSACTION UNDO
+[2017.11.06-23.19.04:323][451]LogEditorTransaction: Undo Rotate Components
+[2017.11.06-23.19.12:400][378]LogEditorActor: Deleted Actor: BP_EnemyCharger_C
+[2017.11.06-23.19.12:416][378]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.11.06-23.19.58:174][876]LogMaterial: Missing cached shader map for material M_LightStage_Arrows, compiling. 
+[2017.11.06-23.20.12:649][228]BlueprintLog: New page: Compile BP_EnemyCharger
+[2017.11.06-23.20.12:782][228]BlueprintEditorCompileResults: Info [2319.56] Compile of BP_EnemyCharger successful! [in 132 ms] (/Game/Blueprints/BP_EnemyCharger.BP_EnemyCharger)
+[2017.11.06-23.20.13:220][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyCharger" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset" SILENT=true
+[2017.11.06-23.20.13:244][266]LogSavePackage: Save=22.05ms
+[2017.11.06-23.20.13:244][266]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyChargerB34A176B46E15A112E0A86AA6E881A17.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset'
+[2017.11.06-23.20.13:247][266]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyCharger.uasset
+[2017.11.06-23.20.15:325][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.20.15:325][493]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:20:15 PM)
+[2017.11.06-23.20.15:325][493]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.20.15:331][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006198s)
+[2017.11.06-23.20.15:331][493]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.20.15:331][493]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2017.11.06-23.20.15:332][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006903s)
+[2017.11.06-23.20.15:349][493]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.20.15:356][493]LogInit: FAudioDevice initialized.
+[2017.11.06-23.20.15:402][493]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.20.15:409][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.20.15
+[2017.11.06-23.20.15:409][493]LogWorld: Bringing up level for play took: 0.006664
+[2017.11.06-23.20.15:411][493]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 1.019
+[2017.11.06-23.21.39:421][147]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.06-23.21.39:642][147]BlueprintEditorCompileResults: Info [2406.42] Compile of BP_EnemyTurret successful! [in 220 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.06-23.22.26:660][921]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.06-23.23.52:251][265]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.06-23.23.52:498][265]BlueprintEditorCompileResults: Info [2539.27] Compile of BP_EnemyTurret successful! [in 247 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.06-23.23.52:923][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.06-23.23.52:958][294]LogSavePackage: Save=33.11ms
+[2017.11.06-23.23.52:958][294]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurret288FD067458AFFF3EC798491764D267D.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.06-23.23.52:961][294]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.06-23.25.36:166][815]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.06-23.25.36:275][815]BlueprintEditorCompileResults: Info [2643.05] Compile of BP_EnemyTurret successful! [in 108 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.06-23.25.36:717][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.06-23.25.36:778][855]LogSavePackage: Save=51.44ms
+[2017.11.06-23.25.36:778][855]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurret01EE8836478AF567F87139A392307B48.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.06-23.25.36:781][855]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.06-23.25.54:860][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.25.54:861][958]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:25:54 PM)
+[2017.11.06-23.25.54:861][958]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.25.54:867][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006619s)
+[2017.11.06-23.25.54:868][958]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.25.54:868][958]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.11.06-23.25.54:868][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007464s)
+[2017.11.06-23.25.54:888][958]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.25.54:894][958]LogInit: FAudioDevice initialized.
+[2017.11.06-23.25.54:944][958]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.25.54:951][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.25.54
+[2017.11.06-23.25.54:952][958]LogWorld: Bringing up level for play took: 0.007045
+[2017.11.06-23.25.54:953][958]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.562
+[2017.11.06-23.27.09:184][149]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.06-23.27.09:332][149]BlueprintEditorCompileResults: Info [2736.11] Compile of BP_EnemyTurret successful! [in 148 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.06-23.27.10:149][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.06-23.27.10:185][222]LogSavePackage: Save=33.35ms
+[2017.11.06-23.27.10:185][222]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurret0CF7C8C84438A87F333CE5A627530213.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.06-23.27.10:188][222]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.06-23.27.13:067][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.27.13:067][418]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:27:13 PM)
+[2017.11.06-23.27.13:067][418]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.27.13:074][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006489s)
+[2017.11.06-23.27.13:074][418]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.27.13:074][418]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2017.11.06-23.27.13:074][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007175s)
+[2017.11.06-23.27.13:093][418]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.27.13:100][418]LogInit: FAudioDevice initialized.
+[2017.11.06-23.27.13:145][418]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.27.13:152][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.27.13
+[2017.11.06-23.27.13:153][418]LogWorld: Bringing up level for play took: 0.006776
+[2017.11.06-23.27.13:154][418]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.762
+[2017.11.06-23.27.38:173][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.06-23.27.38:173][321]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 1:27:38 PM)
+[2017.11.06-23.27.38:173][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.06-23.27.38:180][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006318s)
+[2017.11.06-23.27.38:180][321]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.06-23.27.38:180][321]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2017.11.06-23.27.38:180][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007028s)
+[2017.11.06-23.27.38:200][321]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.06-23.27.38:208][321]LogInit: FAudioDevice initialized.
+[2017.11.06-23.27.38:257][321]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.06-23.27.38:264][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-18.27.38
+[2017.11.06-23.27.38:264][321]LogWorld: Bringing up level for play took: 0.006953
+[2017.11.06-23.27.38:266][321]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.125
+[2017.11.06-23.28.33:096][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LetsCreateMap" FILE="E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.06-23.28.33:368][673]LogSavePackage: Save=261.65ms
+[2017.11.06-23.28.33:368][673]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/LetsCreateMap_Auto3E602B3A54783C5E1B9229C963AAD4C8A.tmp' to 'E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto3.umap'
+[2017.11.06-23.28.33:372][673]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto3.umap
+[2017.11.06-23.28.33:374][673]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LetsCreateMap' took 0.360
+[2017.11.06-23.28.33:374][673]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.360
+[2017.11.07-04.13.09:350][380]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.13.10:696][380]BlueprintEditorCompileResults: Info [9897.47] Compile of SuperHotController successful! [in 1,345 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.13.14:992][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.13.14:992][710]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:13:14 PM)
+[2017.11.07-04.13.14:992][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.13.15:015][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022398s)
+[2017.11.07-04.13.15:015][710]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.13.15:015][710]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.11.07-04.13.15:015][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.023242s)
+[2017.11.07-04.13.15:035][710]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.13.15:043][710]LogInit: FAudioDevice initialized.
+[2017.11.07-04.13.15:091][710]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.13.15:098][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.13.15
+[2017.11.07-04.13.15:099][710]LogWorld: Bringing up level for play took: 0.007118
+[2017.11.07-04.13.15:100][710]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.709
+[2017.11.07-04.13.45:017][997]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.13.45:146][997]BlueprintEditorCompileResults: Info [9931.92] Compile of SuperHotController successful! [in 129 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.13.46:763][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.13.46:824][157]LogSavePackage: Save=48.25ms
+[2017.11.07-04.13.46:824][157]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController90A8929B4E0A8DAECB90A8AB170DF59B.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.13.46:826][157]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.13.53:671][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.13.53:671][820]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:13:53 PM)
+[2017.11.07-04.13.53:671][820]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.13.53:678][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006613s)
+[2017.11.07-04.13.53:678][820]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.13.53:678][820]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.11.07-04.13.53:678][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007395s)
+[2017.11.07-04.13.53:698][820]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.13.53:704][820]LogInit: FAudioDevice initialized.
+[2017.11.07-04.13.53:754][820]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.13.53:761][820]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.13.53
+[2017.11.07-04.13.53:762][820]LogWorld: Bringing up level for play took: 0.006848
+[2017.11.07-04.13.53:763][820]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.628
+[2017.11.07-04.14.07:801][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.14.07:801][190]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:14:07 PM)
+[2017.11.07-04.14.07:801][190]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.14.07:807][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006179s)
+[2017.11.07-04.14.07:807][190]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.14.07:807][190]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.11.07-04.14.07:808][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006888s)
+[2017.11.07-04.14.07:828][190]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.14.07:834][190]LogInit: FAudioDevice initialized.
+[2017.11.07-04.14.07:879][190]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.14.07:886][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.14.07
+[2017.11.07-04.14.07:887][190]LogWorld: Bringing up level for play took: 0.006902
+[2017.11.07-04.14.07:889][190]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.503
+[2017.11.07-04.14.34:037][806]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.14.34:048][806]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.14.34:150][806]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (3 blueprints)
+[2017.11.07-04.14.34:151][806]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.14.34:211][806]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (3 blueprints)
+[2017.11.07-04.14.34:215][806]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.14.34:310][806]LogPlayLevel: PlayLevel: Blueprint regeneration took 272 ms (3 blueprints)
+[2017.11.07-04.14.34:329][806]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:14:34 PM)
+[2017.11.07-04.14.34:329][806]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.14.34:335][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005936s)
+[2017.11.07-04.14.34:336][806]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.14.34:336][806]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2017.11.07-04.14.34:336][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006680s)
+[2017.11.07-04.14.34:356][806]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.14.34:363][806]LogInit: FAudioDevice initialized.
+[2017.11.07-04.14.34:410][806]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.14.34:417][806]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.14.34
+[2017.11.07-04.14.34:418][806]LogWorld: Bringing up level for play took: 0.006787
+[2017.11.07-04.14.34:419][806]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.027
+[2017.11.07-04.14.34:476][807]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062759 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.15.08:426][507]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.15.08:437][507]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.15.08:540][507]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (3 blueprints)
+[2017.11.07-04.15.08:541][507]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.15.08:601][507]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (3 blueprints)
+[2017.11.07-04.15.08:605][507]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.15.08:701][507]LogPlayLevel: PlayLevel: Blueprint regeneration took 274 ms (3 blueprints)
+[2017.11.07-04.15.08:722][507]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:15:08 PM)
+[2017.11.07-04.15.08:722][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.15.08:728][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006120s)
+[2017.11.07-04.15.08:728][507]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.15.08:728][507]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.11.07-04.15.08:729][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006950s)
+[2017.11.07-04.15.08:749][507]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.15.08:755][507]LogInit: FAudioDevice initialized.
+[2017.11.07-04.15.08:805][507]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.15.08:812][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.15.08
+[2017.11.07-04.15.08:813][507]LogWorld: Bringing up level for play took: 0.006747
+[2017.11.07-04.15.08:814][507]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.423
+[2017.11.07-04.15.08:874][508]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062830 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.15.34:804][463]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.15.34:814][463]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.15.34:917][463]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (3 blueprints)
+[2017.11.07-04.15.34:917][463]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.15.34:977][463]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (3 blueprints)
+[2017.11.07-04.15.34:982][463]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.15.35:077][463]LogPlayLevel: PlayLevel: Blueprint regeneration took 273 ms (3 blueprints)
+[2017.11.07-04.15.35:098][463]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:15:35 PM)
+[2017.11.07-04.15.35:098][463]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.15.35:104][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006220s)
+[2017.11.07-04.15.35:105][463]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.15.35:105][463]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2017.11.07-04.15.35:105][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006896s)
+[2017.11.07-04.15.35:124][463]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.15.35:131][463]LogInit: FAudioDevice initialized.
+[2017.11.07-04.15.35:179][463]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.15.35:186][463]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.15.35
+[2017.11.07-04.15.35:187][463]LogWorld: Bringing up level for play took: 0.007165
+[2017.11.07-04.15.35:188][463]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.797
+[2017.11.07-04.15.35:249][464]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.062863 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.16.32:358][ 89]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.16.32:369][ 89]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.16.32:535][ 89]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (3 blueprints)
+[2017.11.07-04.16.32:535][ 89]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.16.32:596][ 89]LogPlayLevel: PlayLevel: Blueprint regeneration took 238 ms (3 blueprints)
+[2017.11.07-04.16.32:600][ 89]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.16.32:696][ 89]LogPlayLevel: PlayLevel: Blueprint regeneration took 338 ms (3 blueprints)
+[2017.11.07-04.16.32:717][ 89]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:16:32 PM)
+[2017.11.07-04.16.32:717][ 89]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.16.32:724][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006558s)
+[2017.11.07-04.16.32:724][ 89]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.16.32:724][ 89]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.11.07-04.16.32:724][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007375s)
+[2017.11.07-04.16.32:745][ 89]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.16.32:751][ 89]LogInit: FAudioDevice initialized.
+[2017.11.07-04.16.32:799][ 89]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.16.32:805][ 89]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.16.32
+[2017.11.07-04.16.32:806][ 89]LogWorld: Bringing up level for play took: 0.006560
+[2017.11.07-04.16.32:810][ 89]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.16.32:810][ 89]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.418
+[2017.11.07-04.16.32:868][ 90]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.063023 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.16.46:400][496]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.07-04.16.46:526][496]BlueprintEditorCompileResults: Info [0113.30] Compile of BP_EnemyTurret successful! [in 126 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.07-04.16.54:493][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.16.54:545][255]LogSavePackage: Save=50.32ms
+[2017.11.07-04.16.54:545][255]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerD15E6861457C8973A95734A5EA12F6A5.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.16.54:549][255]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.16.55:569][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.07-04.16.55:611][352]LogSavePackage: Save=32.01ms
+[2017.11.07-04.16.55:612][352]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurret0924B94E4F1A189076826BB83D7515B0.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.07-04.16.55:614][352]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.07-04.16.56:832][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.16.56:833][471]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:16:56 PM)
+[2017.11.07-04.16.56:833][471]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.16.56:839][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006383s)
+[2017.11.07-04.16.56:839][471]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.16.56:840][471]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2017.11.07-04.16.56:840][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007071s)
+[2017.11.07-04.16.56:859][471]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.16.56:865][471]LogInit: FAudioDevice initialized.
+[2017.11.07-04.16.56:911][471]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.16.56:919][471]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.16.56
+[2017.11.07-04.16.56:920][471]LogWorld: Bringing up level for play took: 0.007298
+[2017.11.07-04.16.56:921][471]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.16.56:921][471]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.53
+[2017.11.07-04.17.15:720][539]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.17.15:852][539]BlueprintEditorCompileResults: Info [0142.63] Compile of SuperHotController successful! [in 131 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.17.16:166][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.17.16:217][569]LogSavePackage: Save=49.26ms
+[2017.11.07-04.17.16:217][569]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController25D2F892412862A7D3460C90183E2297.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.17.16:220][569]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.17.17:877][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.17.17:877][737]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:17:17 PM)
+[2017.11.07-04.17.17:877][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.17.17:884][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006670s)
+[2017.11.07-04.17.17:884][737]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.17.17:885][737]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2017.11.07-04.17.17:885][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007348s)
+[2017.11.07-04.17.17:904][737]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.17.17:911][737]LogInit: FAudioDevice initialized.
+[2017.11.07-04.17.17:960][737]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.17.17:967][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.17.17
+[2017.11.07-04.17.17:967][737]LogWorld: Bringing up level for play took: 0.007022
+[2017.11.07-04.17.17:969][737]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.423
+[2017.11.07-04.17.19:588][925]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.17.54:512][462]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.17.54:652][462]BlueprintEditorCompileResults: Info [0181.43] Compile of SuperHotController successful! [in 139 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.17.55:079][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.17.55:131][501]LogSavePackage: Save=49.86ms
+[2017.11.07-04.17.55:131][501]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController4F542FBA476295A65CE3978F640865DC.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.17.55:134][501]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.17.56:838][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.17.56:838][662]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:17:56 PM)
+[2017.11.07-04.17.56:838][662]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.17.56:845][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006435s)
+[2017.11.07-04.17.56:845][662]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.17.56:845][662]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2017.11.07-04.17.56:846][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007492s)
+[2017.11.07-04.17.56:865][662]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.17.56:872][662]LogInit: FAudioDevice initialized.
+[2017.11.07-04.17.56:923][662]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.17.56:930][662]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.17.56
+[2017.11.07-04.17.56:931][662]LogWorld: Bringing up level for play took: 0.006902
+[2017.11.07-04.17.56:933][662]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.541
+[2017.11.07-04.17.57:164][684]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.17.57:174][685]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.17.58:178][786]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.17.58:188][787]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.17.59:188][888]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.17.59:198][889]LogBlueprintUserMessages: [SuperHotController_C_0] Hello
+[2017.11.07-04.18.19:896][987]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.18.20:018][987]BlueprintEditorCompileResults: Info [0206.79] Compile of SuperHotController successful! [in 121 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.20:300][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.18.20:351][ 14]LogSavePackage: Save=48.43ms
+[2017.11.07-04.18.20:351][ 14]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController4F7890F549EACD33C6CF79924EC490FF.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.18.20:353][ 14]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.18.21:027][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.18.21:027][ 82]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:18:21 PM)
+[2017.11.07-04.18.21:027][ 82]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.18.21:033][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006259s)
+[2017.11.07-04.18.21:034][ 82]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.18.21:034][ 82]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.11.07-04.18.21:034][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007094s)
+[2017.11.07-04.18.21:055][ 82]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.18.21:061][ 82]LogInit: FAudioDevice initialized.
+[2017.11.07-04.18.21:111][ 82]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.18.21:118][ 82]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.18.21
+[2017.11.07-04.18.21:119][ 82]LogWorld: Bringing up level for play took: 0.006940
+[2017.11.07-04.18.21:120][ 82]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.729
+[2017.11.07-04.18.45:502][646]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.18.45:512][646]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.18.45:534][646]LogBlueprint:Error: Compiler Error Variable node  Set CustomTimeDilation  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.07-04.18.45:667][646]LogBlueprint:Warning: Compiler Warning [0232.44] Compile of SuperHotController failed. 1 Fatal Issue(s) 0 Warning(s) [in 144 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.45:668][646]LogBlueprint:Warning: Compiler Warning [0232.44] Compile of SuperHotController failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.45:668][646]LogBlueprint:Warning: Compiler Warning [0232.44] Compile of SuperHotController failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.45:668][646]LogBlueprint:Warning: Compiler Warning [0232.44] Compile of SuperHotController failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.45:671][646]LogBlueprint:Warning: Compiler Warning [0232.44] Compile of SuperHotController failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.45:671][646]LogBlueprint:Warning: Compiler Warning [0232.44] Compile of SuperHotController failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.18.45:674][646]LogPlayLevel: PlayLevel: Blueprint regeneration took 172 ms (3 blueprints)
+[2017.11.07-04.18.45:674][646]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.18.45:735][646]LogPlayLevel: PlayLevel: Blueprint regeneration took 233 ms (3 blueprints)
+[2017.11.07-04.18.45:740][646]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.18.45:835][646]LogPlayLevel: PlayLevel: Blueprint regeneration took 333 ms (3 blueprints)
+[2017.11.07-04.18.45:855][646]BlueprintLog: Info Blueprint SuperHotController failed to compile
+[2017.11.07-04.19.08:480][813]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.19.08:601][813]BlueprintEditorCompileResults: Info [0255.38] Compile of SuperHotController successful! [in 121 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.19.09:338][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.19.09:408][888]LogSavePackage: Save=62.16ms
+[2017.11.07-04.19.09:408][888]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController0DA8466D47262AE0A7A42EA819ADC89B.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.19.09:410][888]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.19.10:988][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.19.10:988][ 50]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:19:10 PM)
+[2017.11.07-04.19.10:989][ 50]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.19.10:995][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006412s)
+[2017.11.07-04.19.10:995][ 50]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.19.10:996][ 50]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2017.11.07-04.19.10:996][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007173s)
+[2017.11.07-04.19.11:015][ 50]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.19.11:022][ 50]LogInit: FAudioDevice initialized.
+[2017.11.07-04.19.11:066][ 50]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.19.11:073][ 50]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.19.11
+[2017.11.07-04.19.11:074][ 50]LogWorld: Bringing up level for play took: 0.006945
+[2017.11.07-04.19.11:075][ 50]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.684
+[2017.11.07-04.19.26:208][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.19.26:208][672]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:19:26 PM)
+[2017.11.07-04.19.26:208][672]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.19.26:216][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008360s)
+[2017.11.07-04.19.26:217][672]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.19.26:217][672]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2017.11.07-04.19.26:217][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.009347s)
+[2017.11.07-04.19.26:240][672]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.19.26:251][672]LogInit: FAudioDevice initialized.
+[2017.11.07-04.19.26:300][672]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.19.26:308][672]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.19.26
+[2017.11.07-04.19.26:309][672]LogWorld: Bringing up level for play took: 0.007493
+[2017.11.07-04.19.26:310][672]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.081
+[2017.11.07-04.20.04:930][847]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.20.05:056][847]BlueprintEditorCompileResults: Info [0311.83] Compile of SuperHotController successful! [in 125 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.20.05:806][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.20.05:806][921]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:20:05 PM)
+[2017.11.07-04.20.05:806][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.20.05:812][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006304s)
+[2017.11.07-04.20.05:813][921]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.20.05:813][921]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2017.11.07-04.20.05:813][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007025s)
+[2017.11.07-04.20.05:834][921]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.20.05:841][921]LogInit: FAudioDevice initialized.
+[2017.11.07-04.20.05:892][921]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.20.05:900][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.20.05
+[2017.11.07-04.20.05:900][921]LogWorld: Bringing up level for play took: 0.007217
+[2017.11.07-04.20.05:902][921]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.489
+[2017.11.07-04.20.37:617][ 50]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.20.37:739][ 50]BlueprintEditorCompileResults: Info [0344.51] Compile of SuperHotController successful! [in 121 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.20.38:011][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.20.38:062][ 71]LogSavePackage: Save=48.42ms
+[2017.11.07-04.20.38:062][ 71]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerB111B56C49FE4BA7591B5CBF6BAB9354.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.20.38:064][ 71]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.20.39:126][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.20.39:126][165]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:20:39 PM)
+[2017.11.07-04.20.39:126][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.20.39:133][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006281s)
+[2017.11.07-04.20.39:133][165]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.20.39:133][165]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2017.11.07-04.20.39:133][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006982s)
+[2017.11.07-04.20.39:152][165]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.20.39:159][165]LogInit: FAudioDevice initialized.
+[2017.11.07-04.20.39:204][165]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.20.39:211][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.20.39
+[2017.11.07-04.20.39:212][165]LogWorld: Bringing up level for play took: 0.006891
+[2017.11.07-04.20.39:213][165]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.822
+[2017.11.07-04.20.47:544][960]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.20.47:555][960]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.20.47:658][960]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (3 blueprints)
+[2017.11.07-04.20.47:659][960]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.20.47:721][960]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (3 blueprints)
+[2017.11.07-04.20.47:726][960]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.20.47:824][960]LogPlayLevel: PlayLevel: Blueprint regeneration took 279 ms (3 blueprints)
+[2017.11.07-04.20.47:844][960]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:20:47 PM)
+[2017.11.07-04.20.47:844][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.20.47:850][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006492s)
+[2017.11.07-04.20.47:851][960]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.20.47:851][960]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.11.07-04.20.47:852][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007600s)
+[2017.11.07-04.20.47:872][960]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.20.47:879][960]LogInit: FAudioDevice initialized.
+[2017.11.07-04.20.47:931][960]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.20.47:938][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.20.47
+[2017.11.07-04.20.47:939][960]LogWorld: Bringing up level for play took: 0.006994
+[2017.11.07-04.20.47:941][960]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.451
+[2017.11.07-04.20.48:012][961]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064850 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.21.06:997][844]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.21.07:006][844]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.21.07:110][844]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2017.11.07-04.21.07:127][844]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:21:07 PM)
+[2017.11.07-04.21.07:127][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.21.07:133][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006027s)
+[2017.11.07-04.21.07:133][844]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.21.07:133][844]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2017.11.07-04.21.07:133][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006715s)
+[2017.11.07-04.21.07:154][844]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.21.07:160][844]LogInit: FAudioDevice initialized.
+[2017.11.07-04.21.07:206][844]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.21.07:213][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.21.07
+[2017.11.07-04.21.07:214][844]LogWorld: Bringing up level for play took: 0.007069
+[2017.11.07-04.21.07:215][844]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.824
+[2017.11.07-04.21.43:191][695]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.21.43:201][695]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.21.43:317][695]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (3 blueprints)
+[2017.11.07-04.21.43:318][695]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.21.43:381][695]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (3 blueprints)
+[2017.11.07-04.21.43:385][695]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.21.43:485][695]LogPlayLevel: PlayLevel: Blueprint regeneration took 293 ms (3 blueprints)
+[2017.11.07-04.21.43:510][695]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:21:43 PM)
+[2017.11.07-04.21.43:510][695]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.21.43:516][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006437s)
+[2017.11.07-04.21.43:517][695]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.21.43:517][695]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.11.07-04.21.43:517][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007257s)
+[2017.11.07-04.21.43:538][695]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.21.43:544][695]LogInit: FAudioDevice initialized.
+[2017.11.07-04.21.43:594][695]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.21.43:601][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.21.43
+[2017.11.07-04.21.43:602][695]LogWorld: Bringing up level for play took: 0.006848
+[2017.11.07-04.21.43:604][695]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 1.212
+[2017.11.07-04.21.43:643][696]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.063975 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.22.46:756][496]BlueprintLog: New page: Compile BP_SuperHotEnemyBullet
+[2017.11.07-04.22.46:993][496]BlueprintEditorCompileResults: Info [0473.77] Compile of BP_SuperHotEnemyBullet successful! [in 236 ms] (/Game/Blueprints/BP_SuperHotEnemyBullet.BP_SuperHotEnemyBullet)
+[2017.11.07-04.22.48:690][681]BlueprintLog: New page: Compile BP_SuperHotBullet
+[2017.11.07-04.22.48:898][681]BlueprintEditorCompileResults: Info [0475.67] Compile of BP_SuperHotBullet successful! [in 208 ms] (/Game/Blueprints/BP_SuperHotBullet.BP_SuperHotBullet)
+[2017.11.07-04.22.49:060][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SuperHotBullet" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotBullet.uasset" SILENT=true
+[2017.11.07-04.22.49:088][695]LogSavePackage: Save=17.74ms
+[2017.11.07-04.22.49:088][695]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_SuperHotBulletF2E2600F4B34B918854DB3AEB8F5D8AF.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotBullet.uasset'
+[2017.11.07-04.22.49:090][695]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotBullet.uasset
+[2017.11.07-04.22.50:004][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SuperHotEnemyBullet" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset" SILENT=true
+[2017.11.07-04.22.50:032][795]LogSavePackage: Save=17.44ms
+[2017.11.07-04.22.50:032][795]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_SuperHotEnemyBulletB3B1951E435EFA594257A2929186D972.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset'
+[2017.11.07-04.22.50:034][795]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset
+[2017.11.07-04.22.52:108][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.22.52:108][ 32]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:22:52 PM)
+[2017.11.07-04.22.52:108][ 32]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.22.52:115][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006180s)
+[2017.11.07-04.22.52:115][ 32]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.22.52:115][ 32]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2017.11.07-04.22.52:115][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006878s)
+[2017.11.07-04.22.52:137][ 32]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.22.52:143][ 32]LogInit: FAudioDevice initialized.
+[2017.11.07-04.22.52:191][ 32]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.22.52:198][ 32]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.22.52
+[2017.11.07-04.22.52:199][ 32]LogWorld: Bringing up level for play took: 0.006868
+[2017.11.07-04.22.52:200][ 32]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.191
+[2017.11.07-04.24.15:076][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.24.15:131][816]LogSavePackage: Save=48.51ms
+[2017.11.07-04.24.15:131][816]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerBF71543F4D535723C80751BA5B32532F.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.24.15:134][816]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.24.16:003][907]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.24.16:139][907]BlueprintEditorCompileResults: Info [0562.91] Compile of SuperHotController successful! [in 136 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.24.16:533][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.24.16:584][943]LogSavePackage: Save=48.44ms
+[2017.11.07-04.24.16:584][943]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerA62CDAE2472A90FAE13F44855FE0884E.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.24.16:585][943]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.24.17:220][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.24.17:220][  7]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:24:17 PM)
+[2017.11.07-04.24.17:220][  7]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.24.17:226][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006306s)
+[2017.11.07-04.24.17:227][  7]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.24.17:227][  7]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.11.07-04.24.17:227][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007018s)
+[2017.11.07-04.24.17:248][  7]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.24.17:255][  7]LogInit: FAudioDevice initialized.
+[2017.11.07-04.24.17:302][  7]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.24.17:309][  7]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.24.17
+[2017.11.07-04.24.17:310][  7]LogWorld: Bringing up level for play took: 0.006995
+[2017.11.07-04.24.17:311][  7]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.92
+[2017.11.07-04.24.48:114][468]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.07-04.24.48:124][468]LogPlayLevel: [PlayLevel] Compiling SuperHotController before play...
+[2017.11.07-04.24.48:227][468]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (3 blueprints)
+[2017.11.07-04.24.48:228][468]LogPlayLevel: [PlayLevel] Compiling BP_EnemyCharger before play...
+[2017.11.07-04.24.48:292][468]LogPlayLevel: PlayLevel: Blueprint regeneration took 178 ms (3 blueprints)
+[2017.11.07-04.24.48:297][468]LogPlayLevel: [PlayLevel] Compiling BP_EnemyTurret before play...
+[2017.11.07-04.24.48:397][468]LogPlayLevel: PlayLevel: Blueprint regeneration took 283 ms (3 blueprints)
+[2017.11.07-04.24.48:419][468]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:24:48 PM)
+[2017.11.07-04.24.48:419][468]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.24.48:426][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006384s)
+[2017.11.07-04.24.48:426][468]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.24.48:426][468]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2017.11.07-04.24.48:426][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007315s)
+[2017.11.07-04.24.48:446][468]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.24.48:453][468]LogInit: FAudioDevice initialized.
+[2017.11.07-04.24.48:498][468]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.24.48:505][468]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.24.48
+[2017.11.07-04.24.48:506][468]LogWorld: Bringing up level for play took: 0.007510
+[2017.11.07-04.24.48:508][468]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.116
+[2017.11.07-04.24.48:567][469]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.063004 > MaxSimulationTimeStep (0.050) for 'BP_EnemyTurret_227', movement 'Walking'
+[2017.11.07-04.25.51:774][996]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.25.51:899][996]BlueprintEditorCompileResults: Info [0658.67] Compile of SuperHotController successful! [in 124 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.25.52:100][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.25.52:151][ 15]LogSavePackage: Save=48.57ms
+[2017.11.07-04.25.52:151][ 15]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController0FE9514F4C04D15C111A60B1EBD30C60.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.25.52:153][ 15]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.25.52:732][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.25.52:732][ 73]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:25:52 PM)
+[2017.11.07-04.25.52:732][ 73]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.25.52:739][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006562s)
+[2017.11.07-04.25.52:739][ 73]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.25.52:739][ 73]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2017.11.07-04.25.52:739][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007329s)
+[2017.11.07-04.25.52:761][ 73]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.25.52:768][ 73]LogInit: FAudioDevice initialized.
+[2017.11.07-04.25.52:818][ 73]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.25.52:824][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.25.52
+[2017.11.07-04.25.52:825][ 73]LogWorld: Bringing up level for play took: 0.006586
+[2017.11.07-04.25.52:827][ 73]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.435
+[2017.11.07-04.26.05:504][466]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.26.05:627][466]BlueprintEditorCompileResults: Info [0672.40] Compile of SuperHotController successful! [in 123 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.26.06:031][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.26.06:082][507]LogSavePackage: Save=48.41ms
+[2017.11.07-04.26.06:082][507]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController16CF21E34B9D8A7BE5B61281E1A530BD.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.26.06:085][507]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.26.06:727][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.26.06:727][571]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:26:06 PM)
+[2017.11.07-04.26.06:727][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.26.06:733][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006241s)
+[2017.11.07-04.26.06:733][571]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.26.06:733][571]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2017.11.07-04.26.06:734][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006930s)
+[2017.11.07-04.26.06:755][571]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.26.06:762][571]LogInit: FAudioDevice initialized.
+[2017.11.07-04.26.06:807][571]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.26.06:814][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.26.06
+[2017.11.07-04.26.06:814][571]LogWorld: Bringing up level for play took: 0.006663
+[2017.11.07-04.26.06:816][571]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.425
+[2017.11.07-04.27.10:433][669]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.27.10:455][669]LogBlueprint:Error: Compiler Error Could not find a function named "DilateTime" in 'BP_SuperHotEnemyBullet_C'.
+Make sure 'BP_SuperHotEnemyBullet_C' has been compiled for  Dilate Time 
+[2017.11.07-04.27.10:614][669]LogBlueprint:Warning: Compiler Warning [0737.39] Compile of SuperHotController failed. 1 Fatal Issue(s) 0 Warning(s) [in 181 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.27.10:614][669]BlueprintEditorCompileResults:Error: Error Could not find a function named "DilateTime" in 'BP_SuperHotEnemyBullet_C'.
+Make sure 'BP_SuperHotEnemyBullet_C' has been compiled for  Dilate Time 
+[2017.11.07-04.27.10:614][669]BlueprintEditorCompileResults:Warning: Warning [0737.39] Compile of SuperHotController failed. 1 Fatal Issue(s) 0 Warning(s) [in 181 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.27.10:939][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.27.10:988][701]LogSavePackage: Save=47.15ms
+[2017.11.07-04.27.10:988][701]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotController1A472C614CD7EBA9C256138860D29640.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.27.10:991][701]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.27.16:846][347]BlueprintLog: New page: Compile BP_SuperHotEnemyBullet
+[2017.11.07-04.27.17:035][347]BlueprintEditorCompileResults: Info [0743.81] Compile of BP_SuperHotEnemyBullet successful! [in 189 ms] (/Game/Blueprints/BP_SuperHotEnemyBullet.BP_SuperHotEnemyBullet)
+[2017.11.07-04.27.17:692][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SuperHotEnemyBullet" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset" SILENT=true
+[2017.11.07-04.27.17:712][418]LogSavePackage: Save=18.13ms
+[2017.11.07-04.27.17:712][418]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_SuperHotEnemyBulletDDF3761941A5D419396BE7BC3A5687E2.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset'
+[2017.11.07-04.27.17:715][418]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_SuperHotEnemyBullet.uasset
+[2017.11.07-04.27.20:360][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.27.20:410][700]LogSavePackage: Save=48.11ms
+[2017.11.07-04.27.20:410][700]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerD79B3B344B4C0E27A7F5F4BF8EC09124.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.27.20:412][700]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.27.21:404][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.27.21:405][804]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:27:21 PM)
+[2017.11.07-04.27.21:405][804]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.27.21:411][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006782s)
+[2017.11.07-04.27.21:412][804]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.27.21:412][804]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.11.07-04.27.21:412][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007702s)
+[2017.11.07-04.27.21:433][804]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.27.21:440][804]LogInit: FAudioDevice initialized.
+[2017.11.07-04.27.21:491][804]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.27.21:499][804]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.27.21
+[2017.11.07-04.27.21:499][804]LogWorld: Bringing up level for play took: 0.007091
+[2017.11.07-04.27.21:501][804]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.891
+[2017.11.07-04.27.47:695][618]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.07-04.27.47:825][618]BlueprintEditorCompileResults: Info [0774.60] Compile of BP_EnemyTurret successful! [in 129 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.07-04.27.48:300][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.07-04.27.48:356][657]LogSavePackage: Save=49.55ms
+[2017.11.07-04.27.48:356][657]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurret5F09D913416C336BF6A2FF8C361F360D.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.07-04.27.48:358][657]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.07-04.27.50:070][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.27.50:070][816]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:27:50 PM)
+[2017.11.07-04.27.50:070][816]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.27.50:076][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005976s)
+[2017.11.07-04.27.50:076][816]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.27.50:076][816]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2017.11.07-04.27.50:077][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006725s)
+[2017.11.07-04.27.50:098][816]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.27.50:104][816]LogInit: FAudioDevice initialized.
+[2017.11.07-04.27.50:151][816]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.27.50:158][816]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.27.50
+[2017.11.07-04.27.50:158][816]LogWorld: Bringing up level for play took: 0.006981
+[2017.11.07-04.27.50:160][816]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.232
+[2017.11.07-04.27.57:553][548]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.07-04.27.57:680][548]BlueprintEditorCompileResults: Info [0784.45] Compile of BP_EnemyTurret successful! [in 126 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.07-04.27.57:932][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.07-04.27.57:967][565]LogSavePackage: Save=32.16ms
+[2017.11.07-04.27.57:967][565]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurret3D537A9E4F208F9436FB20B6A2C5862D.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.07-04.27.57:969][565]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.07-04.27.59:315][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.27.59:315][690]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:27:59 PM)
+[2017.11.07-04.27.59:315][690]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.27.59:321][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006320s)
+[2017.11.07-04.27.59:322][690]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.27.59:322][690]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2017.11.07-04.27.59:322][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.007097s)
+[2017.11.07-04.27.59:343][690]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.27.59:349][690]LogInit: FAudioDevice initialized.
+[2017.11.07-04.27.59:395][690]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.27.59:402][690]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.27.59
+[2017.11.07-04.27.59:403][690]LogWorld: Bringing up level for play took: 0.006878
+[2017.11.07-04.27.59:404][690]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 1.013
+[2017.11.07-04.28.09:961][754]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.07-04.28.10:088][754]BlueprintEditorCompileResults: Info [0796.86] Compile of BP_EnemyTurret successful! [in 126 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.07-04.28.10:304][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.07-04.28.10:339][768]LogSavePackage: Save=32.49ms
+[2017.11.07-04.28.10:339][768]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurretA9FA0DF64A8D5BCD51BE2EA5541C7B27.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.07-04.28.10:342][768]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.07-04.28.11:832][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.28.11:832][904]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:28:11 PM)
+[2017.11.07-04.28.11:832][904]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.28.11:838][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006215s)
+[2017.11.07-04.28.11:839][904]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.28.11:839][904]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.11.07-04.28.11:839][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006982s)
+[2017.11.07-04.28.11:860][904]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.28.11:866][904]LogInit: FAudioDevice initialized.
+[2017.11.07-04.28.11:910][904]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.28.11:918][904]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.28.11
+[2017.11.07-04.28.11:918][904]LogWorld: Bringing up level for play took: 0.007089
+[2017.11.07-04.28.11:920][904]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap -0.471
+[2017.11.07-04.28.47:919][600]BlueprintLog: New page: Compile BP_EnemyTurret
+[2017.11.07-04.28.48:047][600]BlueprintEditorCompileResults: Info [0834.82] Compile of BP_EnemyTurret successful! [in 128 ms] (/Game/Blueprints/BP_EnemyTurret.BP_EnemyTurret)
+[2017.11.07-04.28.48:235][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemyTurret" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset" SILENT=true
+[2017.11.07-04.28.48:269][611]LogSavePackage: Save=31.90ms
+[2017.11.07-04.28.48:269][611]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/BP_EnemyTurretC5F917DD4E428A7577296F8914A9BB42.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset'
+[2017.11.07-04.28.48:272][611]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/BP_EnemyTurret.uasset
+[2017.11.07-04.29.04:947][392]BlueprintLog: New page: Compile SuperHotController
+[2017.11.07-04.29.05:085][392]BlueprintEditorCompileResults: Info [0851.86] Compile of SuperHotController successful! [in 138 ms] (/Game/Blueprints/SuperHotController.SuperHotController)
+[2017.11.07-04.29.05:408][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SuperHotController" FILE="E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset" SILENT=true
+[2017.11.07-04.29.05:459][424]LogSavePackage: Save=48.50ms
+[2017.11.07-04.29.05:459][424]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/SuperHotControllerA93B614A496A7E4C5550DC870B5F0F2F.tmp' to 'E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset'
+[2017.11.07-04.29.05:461][424]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Blueprints/SuperHotController.uasset
+[2017.11.07-04.29.06:527][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.07-04.29.06:528][534]PIE: New page: PIE session: LetsCreateMap (Nov 6, 2017, 6:29:06 PM)
+[2017.11.07-04.29.06:528][534]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LetsCreateMap
+[2017.11.07-04.29.06:534][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006036s)
+[2017.11.07-04.29.06:534][534]LogAIModule: Creating AISystem for world LetsCreateMap
+[2017.11.07-04.29.06:534][534]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2017.11.07-04.29.06:534][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LetsCreateMap.LetsCreateMap to /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap (0.006726s)
+[2017.11.07-04.29.06:555][534]LogInit: XAudio2 using 'Speakers (Sound BlasterX G1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.07-04.29.06:561][534]LogInit: FAudioDevice initialized.
+[2017.11.07-04.29.06:608][534]LogWorld: Game class is 'FPSGameMode_C'
+[2017.11.07-04.29.06:615][534]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LetsCreateMap.LetsCreateMap up for play (max tick rate 0) at 2017.11.06-23.29.06
+[2017.11.07-04.29.06:616][534]LogWorld: Bringing up level for play took: 0.007204
+[2017.11.07-04.29.06:618][534]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LetsCreateMap 0.226
+[2017.11.07-04.29.47:756][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LetsCreateMap" FILE="E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.07-04.29.48:031][605]LogSavePackage: Save=260.55ms
+[2017.11.07-04.29.48:031][605]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/LetsCreateMap_Auto41671D5F8425820A5A164E9BD30956122.tmp' to 'E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto4.umap'
+[2017.11.07-04.29.48:032][605]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Saved/Autosaves/Game/Maps/LetsCreateMap_Auto4.umap
+[2017.11.07-04.29.48:036][605]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/LetsCreateMap' took 0.298
+[2017.11.07-04.29.48:036][605]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.298
+[2017.11.07-04.29.52:903][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.07-04.29.52:964][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.07-04.29.53:031][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.07-04.29.57:243][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/LetsCreateMap" FILE="E:/Git/CS390VR/lab3/Content/Maps/LetsCreateMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.07-04.29.57:522][981]LogSavePackage: Save=260.28ms
+[2017.11.07-04.29.57:522][981]LogSavePackage: Moving 'E:/Git/CS390VR/lab3/Saved/LetsCreateMapBE417A884E9932C79B02DBB33EB7AD5B.tmp' to 'E:/Git/CS390VR/lab3/Content/Maps/LetsCreateMap.umap'
+[2017.11.07-04.29.57:527][981]LogSavePackage:Display: Finished SavePackage E:/Git/CS390VR/lab3/Content/Maps/LetsCreateMap.umap
+[2017.11.07-04.29.57:550][981]LogFileHelpers: Saving map 'LetsCreateMap' took 1.359
+[2017.11.07-04.29.59:543][205]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.07-04.29.59:721][206]Cmd: QUIT_EDITOR
+[2017.11.07-04.30.00:093][206]LogExit: Preparing to exit.
+[2017.11.07-04.30.00:931][206]LogExit: Editor shut down
+[2017.11.07-04.30.00:931][206]LogExit: Transaction tracking system shut down
+[2017.11.07-04.30.01:063][206]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.07-04.30.01:063][206]LogExit: Object subsystem successfully closed.
+[2017.11.07-04.30.01:083][206]LogD3D12RHI: Serializing Pipeline Library to disk (28 KiB containing 0 PSOs)
+[2017.11.07-04.30.01:161][206]LogD3D12RHI: ~FD3D12DynamicRHI
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (218)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (217)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
+[2017.11.07-04.30.01:172][206]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module StatsViewer (206)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module FoliageEdit (205)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module LandscapeEditor (204)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (203)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module ActorPickerMode (202)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module GeometryMode (201)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module TextureAlignMode (200)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module BspMode (199)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module HardwareSurvey (198)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (197)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module SequenceRecorder (196)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module AutomationWorker (195)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (194)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module PlacementMode (193)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (192)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module CharacterAI (191)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module SmartSnapping (190)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module SessionServices (189)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module ViewportSnapping (188)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module LogVisualizer (187)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (186)
+[2017.11.07-04.30.01:173][206]LogModuleManager: Shutting down and abandoning module IntroTutorials (185)
+[2017.11.07-04.30.01:174][206]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (184)
+[2017.11.07-04.30.01:174][206]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (183)
+[2017.11.07-04.30.01:174][206]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (182)
+[2017.11.07-04.30.01:174][206]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (181)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (180)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (179)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (178)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module MergeActors (177)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module SizeMap (176)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module TreeMap (175)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module ReferenceViewer (174)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module LocalizationService (173)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (172)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module HardwareTargeting (171)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (170)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module UndoHistory (169)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module UserFeedback (168)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module XmlParser (167)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module Blutility (166)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (165)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (164)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module InputBindingEditor (163)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (162)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module SettingsEditor (161)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module ProjectLauncher (160)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module SessionFrontend (159)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module ProfilerClient (158)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (157)
+[2017.11.07-04.30.01:689][206]LogModuleManager: Shutting down and abandoning module DeviceManager (156)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module AutomationController (155)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module AutomationWindow (154)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module Layers (153)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (152)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module DetailCustomizations (151)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module PackagesDialog (150)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module Persona (149)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module Kismet (148)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module GraphEditor (147)
+[2017.11.07-04.30.01:734][206]LogModuleManager: Shutting down and abandoning module ClassViewer (146)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module Toolbox (145)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module ModuleUI (144)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module MovieSceneTools (143)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module OutputLog (142)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module GammaUI (141)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module Documentation (140)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (139)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module AnalyticsET (138)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module Analytics (137)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module PortalServices (136)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module PortalRpc (135)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module MessagingRpc (134)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module GameplayDebugger (133)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module AIModule (131)
+[2017.11.07-04.30.01:735][206]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
+[2017.11.07-04.30.01:770][206]LogModuleManager: Shutting down and abandoning module TaskGraph (129)
+[2017.11.07-04.30.01:770][206]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2017.11.07-04.30.01:770][206]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2017.11.07-04.30.01:770][206]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2017.11.07-04.30.01:771][206]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2017.11.07-04.30.01:772][206]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2017.11.07-04.30.01:773][206]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2017.11.07-04.30.01:773][206]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2017.11.07-04.30.01:873][206]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.11.07-04.30.01:874][206]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.11.07-04.30.01:874][206]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.11.07-04.30.01:874][206]LogModuleManager: Shutting down and abandoning module Media (91)
+[2017.11.07-04.30.01:874][206]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
+[2017.11.07-04.30.01:874][206]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module VREditor (85)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (84)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module PropertyEditor (83)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (82)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module FunctionalTesting (81)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (80)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module Sequencer (79)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (78)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module MessageLog (77)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module AssetTools (76)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module UMGEditor (75)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module UMG (74)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module SlateReflector (73)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module Slate (72)
+[2017.11.07-04.30.01:875][206]LogModuleManager: Shutting down and abandoning module EditorStyle (71)
+[2017.11.07-04.30.01:890][206]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
+[2017.11.07-04.30.01:890][206]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
+[2017.11.07-04.30.01:890][206]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
+[2017.11.07-04.30.01:890][206]LogModuleManager: Shutting down and abandoning module Networking (66)
+[2017.11.07-04.30.01:890][206]LogModuleManager: Shutting down and abandoning module Core (65)
+[2017.11.07-04.30.01:890][206]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (64)
+[2017.11.07-04.30.01:896][206]LogModuleManager: Shutting down and abandoning module AssetRegistry (63)
+[2017.11.07-04.30.02:031][206]LogModuleManager: Shutting down and abandoning module KismetCompiler (62)
+[2017.11.07-04.30.02:031][206]LogModuleManager: Shutting down and abandoning module PhysXFormats (61)
+[2017.11.07-04.30.02:031][206]LogModuleManager: Shutting down and abandoning module MeshUtilities (60)
+[2017.11.07-04.30.02:031][206]LogModuleManager: Shutting down and abandoning module DerivedDataCache (59)
+[2017.11.07-04.30.02:099][206]LogDerivedDataCache: Shutdown
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (58)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (57)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (56)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (54)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (53)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (52)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (51)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (48)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (47)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (46)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (45)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (44)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (43)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (42)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (41)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Messaging (40)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (39)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (38)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (37)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (36)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (35)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (34)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (33)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (32)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (31)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (30)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (25)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module TargetPlatform (24)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module InputCore (23)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module Settings (22)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2017.11.07-04.30.02:099][206]LogModuleManager: Shutting down and abandoning module HTTP (19)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module XMPP (18)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module OculusRift (17)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (16)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module TextureCompressor (15)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module ShaderCore (14)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module Landscape (13)
+[2017.11.07-04.30.03:601][206]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (12)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module OpenGLDrv (11)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module D3D11RHI (10)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module D3D12RHI (9)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.11.07-04.30.03:603][206]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.11.07-04.30.03:604][206]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.11.07-04.30.03:605][206]LogExit: Exiting.
+[2017.11.07-04.30.03:606][206]Log file closed, 11/06/17 23:30:03
